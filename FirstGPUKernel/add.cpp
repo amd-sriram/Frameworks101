@@ -2,6 +2,8 @@
 #include <chrono>
 #include <random>
 
+#include <iostream>
+
 __global__ void add_kernel(double* a, double* b, double* result, int n){
 
 	int tid=threadIdx.x+ blockIdx.x * blockDim.x;
