@@ -38,4 +38,3 @@ class LeNet(nn.Module):
         x = self.feat(x)
         x = self.classifer(x)
         return x
-

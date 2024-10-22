@@ -1,0 +1,1 @@
+docker run --rm -it --device=/dev/kfd --device=/dev/dri -v ~/github/Frameworks101:/Frameworks101 --name sriram_test 77bb884a2f2f

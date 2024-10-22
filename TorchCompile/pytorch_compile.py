@@ -1,5 +1,5 @@
 import time
-from lenet import LeNet
+from TorchCompile.model import LeNet
 import torch
 import torch._dynamo
 import warnings
