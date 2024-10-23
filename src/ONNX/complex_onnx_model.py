@@ -53,5 +53,5 @@ graph_def = helper.make_graph(
 model_def = helper.make_model(graph_def, producer_name='onnx-complex-example')
 
 #save
-onnx.save(model_def, 'complex_model.onnx')
+onnx.save(model_def, '../data/complex_model.onnx')
 

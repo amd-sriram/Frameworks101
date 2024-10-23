@@ -1,6 +1,6 @@
 import torch
 from typing import List
-from model import Model
+from TorchCompile.model import Model
 from torch._functorch.aot_autograd import aot_module_simplified
 
 

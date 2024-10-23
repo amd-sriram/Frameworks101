@@ -3,3 +3,5 @@ torch_compile_debug/*
 *.pyc
 data/*
 .frameworks_env/*
+*.deb 
+src/data/*

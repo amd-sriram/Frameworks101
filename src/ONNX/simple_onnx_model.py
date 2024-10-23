@@ -24,4 +24,4 @@ graph_def = helper.make_graph(
 model_def = helper.make_model(graph_def, producer_name='simple_model_example')
 
 # Save the model
-onnx.save(model_def, 'simple_model.onnx')
+onnx.save(model_def, '../data/simple_model.onnx')

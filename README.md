@@ -60,3 +60,7 @@ To create ONNX models
 To benchmark pytorch vs onnx for Resnet50 model
 
 > python3 ONNX/benchmark.py
+
+Train pytorch model using torch-ort
+
+> python3 ONNX/train_pytorch_model.py
