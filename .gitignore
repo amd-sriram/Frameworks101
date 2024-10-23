@@ -1,3 +1,5 @@
 .idea/*
 torch_compile_debug/*
 *.pyc
+data/*
+.frameworks_env/*
