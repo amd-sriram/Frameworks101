@@ -5,3 +5,4 @@ data/*
 .frameworks_env/*
 *.deb 
 src/data/*
+src/torch_compile_debug/*

@@ -43,7 +43,7 @@ To compare inference times of pytorch vs torch compile
 
 To generate the graphs
 
-> python3 TorchCompile/compile_graphs.py
+> python3 -m TorchCompile.compile_graphs
 
 ## ONNX
 

@@ -1,6 +1,8 @@
 tabulate
 onnx
-torch-ort
+torch-onnx 
+jsondiff
+gitpython
 
 #onnxruntime-rocm
 #numpy==1.20.3

@@ -6,6 +6,7 @@ from torch._functorch.aot_autograd import aot_module_simplified
 
 def print_fx_graph(gm: torch.fx.GraphModule, example_inputs: List[torch.Tensor]):
     print("custom backend called with FX graph:")
+    gm.print_readable()
     gm.graph.print_tabular()
     return gm.forward
 
